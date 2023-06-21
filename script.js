@@ -63,3 +63,18 @@ function convertBase(str, fromBase, toBase) {
         out += DIGITS[outArray[i]];
         return out;
 }
+
+
+// Função para ser chamada ao clicar no botão de conversão
+function convert() {
+    let out = '';    
+    str = document.getElementById('str').value;
+    fromBase = document.getElementById('fromBase').value;
+    fromBase = parseInt(fromBase, 10);
+    toBase = document.getElementById('toBase').value;
+    toBase = parseInt(toBase, 10);
+
+    out = convertBase(str, fromBase, toBase);
+
+    document.getElementById('converted').innerHTML = out;
+}
