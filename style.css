@@ -1,0 +1,37 @@
+* {
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.converter {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.convert-btn {
+  background-color: #f8f9fa;
+  border: none;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.converted {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 10px;
+}
