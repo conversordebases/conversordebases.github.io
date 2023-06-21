@@ -17,8 +17,11 @@ input:focus {
   outline: none;
 }
 
+.card {
+  margin-top: 5em;
+}
+
 .converter {
-  margin-top: 4em;
   text-align: center;
 }
 
